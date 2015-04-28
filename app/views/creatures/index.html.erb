@@ -1,0 +1,9 @@
+<h1>Welcome to Le Bog</h1>
+
+<h2><%= @msg %></h2>
+
+<h2>Explore the Creatures of Le Bog</h2>
+
+<% @creature.each do |c| %>
+  <li class="creatures"><%= link_to c.name, c %>
+<% end %>

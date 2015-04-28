@@ -1,0 +1,3 @@
+<h1><%= @creature.name %></h1>
+<p><%= @creature.description %></p>
+<p><%= link_to 'Delete', creature_path, method: :delete, data: { confirm: 'Would you really like to remove this creature?' } %></p>
