@@ -1,8 +1,13 @@
-<h1>Add a Creature</h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 poke-forms">
+    <h1>Add a Pokemon</h1>
 
 
-<%= bootstrap_form_for @creature do |f| %>
-<%= f.text_field :name, :placeholder => "Enter a creature" %>
-<%= f.text_area :description, :placeholder => "Describe the creature" %>
-<%= f.primary %>
-<% end %>
+    <%= bootstrap_form_for @creature do |f| %>
+    <%= f.text_field :name, :placeholder => "Enter a Pokemon" %>
+    <%= f.text_area :description, :placeholder => "Describe the Pokemon" %>
+    <%= f.collection_check_boxes :tags, @tag, :id, :name %>
+    <%= f.primary %>
+    <% end %>
+  </div>
+</div>

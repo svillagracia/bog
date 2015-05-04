@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 poke-forms">
+    <h1>This is the Tags show page.</h1>
+    <p>You should be able to click on a tag and see all the Pok&eacute;mon associated with it.</p>
+
+    <% @tag.each do |t| %>
+      <li class="creatures"><%= link_to t.name, t %></li>
+    <% end %>
+  </div>
+</div>

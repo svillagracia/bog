@@ -1,0 +1,60 @@
+body {
+  background: url('http://cartoondistrict.com/wp-content/uploads/2014/12/pokemon-wallpaper-HD-for-desktop-2.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  color: white;
+  list-style: none;
+}
+
+.welcome {
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+}
+
+.dex {
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Play', sans-serif;
+  margin-top: 5%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.creatures a {
+  color: white;
+}
+
+.creatures a:hover {
+  color: red;
+}
+
+.poke-forms {
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Play', sans-serif;
+  margin-top: 5%;
+  padding-bottom: 20px;
+}
+
+.poke-type {
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Play', sans-serif;
+  margin-top: 5%;
+  padding-bottom: 20px;
+}
+
+.show {
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  font-family: 'Play', sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 20px;
+  text-align: center;
+}

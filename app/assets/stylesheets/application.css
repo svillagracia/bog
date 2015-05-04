@@ -14,25 +14,3 @@
  *= require_self
  *= require rails_bootstrap_forms
  */
-
- body {
-  background: url('http://i.imgur.com/HlAeQ3w.jpg');
- }
-
- .main {
-  border-radius: 25px;
-  list-style: none;
-  text-align: center;
-  color: green;
-  margin-top: 10%;
-  padding-bottom: 30px;
-  background-color: rgba(0,0,0,0.5);
- }
-
-.creatures a {
-  color: white;
-}
-
-.creatures a:hover {
-  color: red;
-}

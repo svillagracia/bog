@@ -1,3 +1,14 @@
-<h1><%= @creature.name %></h1>
-<p><%= @creature.description %></p>
-<p><%= link_to 'Delete', creature_path, method: :delete, data: { confirm: 'Would you really like to remove this creature?' } %></p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 show">
+    <h1><%= @creature.name %></h1>
+    <img src="<%= @photo %>">
+    <br>
+    <p><%= @creature.description %></p>
+
+    <% @tag.each do |t| %>
+      <li class="creatures"><%= link_to t.name, t %></li>
+    <% end %>
+    <p><%= link_to 'Edit Pokemon', edit_creature_path(@creature), :class => "btn btn-info" %>  <%= link_to 'Delete Pokemon', creature_path, :class => "btn btn-danger", method: :delete, data: { confirm: 'Would you really like to remove this Pokemon from the Pokedex?' } %></p>
+
+  </div>
+</div>
